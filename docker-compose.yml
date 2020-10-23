@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+   starwarssoundsbot:
+     image: elraro/starwarssoundsbot
+     container_name: starwarssoundsbot
+     restart: always
+     environment:
+       TELEGRAM_BOT_TOKEN: XXXX:XXXX
+       TELEGRAM_USER_ALIAS: elraro
+     volumes:
+       - starwarssoundsbot:/data/db.sqlite
+volumes:
+    starwarssoundsbot:

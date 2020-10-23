@@ -1,0 +1,6 @@
+pytelegrambotapi
+unidecode
+requests
+pony
+uptime
+pymysql
