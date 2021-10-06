@@ -1,8 +1,6 @@
 FROM python:3.7-stretch
 
 COPY requirements.txt /
-RUN apt update
-RUN apt install gcc -y
 RUN pip3 install -r requirements.txt
 
 WORKDIR /app
