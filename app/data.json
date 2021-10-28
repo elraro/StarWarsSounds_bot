@@ -15,6 +15,11 @@
       "filename": "tuskan_raider.ogg",
       "text": "Tuskan Raider",
       "tags": "tuskan raider"
+    },
+    {
+      "filename": "anakin_theme.ogg",
+      "text": "Anakin's music theme",
+      "tags": "anakin skywalker theme"
     }
   ]
 }
