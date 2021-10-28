@@ -15,6 +15,11 @@
       "filename": "tuskan_raider.ogg",
       "text": "Tuskan Raider",
       "tags": "tuskan raider"
+    },
+    {
+      "filename": "lightspeed_jump.ogg",
+      "text": "Jump to Lightspeed",
+      "tags": "lightspeed jump"
     }
   ]
 }
