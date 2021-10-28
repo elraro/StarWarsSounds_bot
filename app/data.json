@@ -15,6 +15,11 @@
       "filename": "tuskan_raider.ogg",
       "text": "Tuskan Raider",
       "tags": "tuskan raider"
+    },
+    {
+      "filename": "r2d2_compute.ogg",
+      "text": "R2D2 Compute",
+      "tags": "r2d2 compute"
     }
   ]
 }
