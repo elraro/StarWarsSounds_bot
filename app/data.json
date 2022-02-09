@@ -2,6 +2,11 @@
   "title": "Star Wars Sounds Bot",
   "sounds": [
     {
+      "filename": "the_book_of_boba_fett.ogg",
+      "text": "The Book of Boba Fett - Theme",
+      "tags": "the book boba fett ost theme intro"
+    },
+    {
       "filename": "the_mandalorian_ost.ogg",
       "text": "The Mandalorian - Theme",
       "tags": "the mandalorian ost theme baby yoda intro"
