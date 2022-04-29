@@ -18,9 +18,8 @@ jobs:
         name: Login to GHCR
         uses: docker/login-action@v1 
         with:
-          registry: ghcr.io
-          username: ${{ secrets.GHCR_USERNAME }}
-          password: ${{ secrets.GHCR_PAT }}
+          registry: "elraro"
+          password: ${{ secrets.GITHUB_TOKEN }}
       -
         name: Build and push
         id: docker_build
