@@ -277,7 +277,7 @@ LOG.info('Serving %i sounds.', len(sounds))
 
 if args.webhook_host:
     webhook.start_webhook(bot, args.webhook_host, args.webhook_port, args.webhook_listening,
-                          args.webhook_listening_port)
+                          int(args.webhook_listening_port))
 else:
     bot.remove_webhook()
     while True:
